@@ -14,7 +14,7 @@ def main_page(request):
 # TODO:
 #   some links design
 #   some page design
-#   do cool templates for: create post, delete post, update post, profile pages
+#   do cool templates for: create post, delete post, update post,
 class PermissionToEditPostMixin(UserPassesTestMixin):
     def test_func(self):
         obj = super().get_object()
